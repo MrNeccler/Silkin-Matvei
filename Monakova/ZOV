@@ -1,3 +1,4 @@
+"""ПЗ 2"""
 number = float(input())
 print(str(int(number % 100)) + str(int(number//100)))
 
