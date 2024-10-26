@@ -1,10 +1,10 @@
 """ПЗ 2 Вар 18 Дано трехзначное число. В нем зачеркнули первую слева цифру и приписали ее справа.Вывести"""
-print("Введите число")
-number = float(input())
-print(str(int(number % 100)) + str(int(number//100)))
+x = input ("Введите число")
+while type(x) != float:
+    try:
+        x = float(x)
+    except ValueError:
+        print('Вы ввели число не правильно')
+        x = input('Повторите попытку: ')
 
-
-
-
-
-
+print(str(int(x % 100)) + str(int(x //100)))
