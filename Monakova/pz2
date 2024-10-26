@@ -6,5 +6,4 @@ while type(x) != float:
     except ValueError:
         print('Вы ввели число не правильно')
         x = input('Повторите попытку: ')
-
 print(str(int(x % 100)) + str(int(x //100)))
