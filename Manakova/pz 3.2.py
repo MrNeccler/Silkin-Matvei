@@ -2,7 +2,7 @@
 
 
 
- '''def find_middle_number(a, b, c):
+ def find_middle_number(a, b, c):
     # Создаем список из трех чисел
     numbers = [a, b, c]
     # Сортируем список
@@ -14,4 +14,4 @@ num1 = float(input("Введите первое число: "))
 num2 = float(input("Введите второе число: "))
 num3 = float(input("Введите третье число: "))
 middle_number = find_middle_number(num1, num2, num3)
-print("Среднее число из введенных:", middle_number)'''
+print("Среднее число из введенных:", middle_number)
