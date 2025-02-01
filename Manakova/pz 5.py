@@ -2,7 +2,7 @@
 определяет, есть ли в числе одинаковые цифры.'''
 import random
 
-def generate_four_digit_number():
+def фунцкия():
     # Генерируем четырехзначное число
     number = random.randint(1000, 9999)
     return number
@@ -13,7 +13,7 @@ def has_duplicate_digits(number):
     return len(set(digits)) < len(digits)
 
 def main():
-    number = generate_four_digit_number()
+    number = функция()
     print(f"Сгенерированное число: {number}")
     
     if has_duplicate_digits(number):
